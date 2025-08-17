@@ -1,2 +1,34 @@
+# Node modules (all projects)
+node_modules/
+**/node_modules/
+
+# Environment files (secrets)
 .env
-/node_modules
+**/.env
+/frontend/.env.local
+/backend/.env
+
+# Frontend build output
+frontend/build/
+
+# Lock files (optional to keep)
+# package-lock.json
+# yarn.lock
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Misc
+dist/
